@@ -29,7 +29,7 @@ scripts/config --disable DEBUG_INFO
 # source ../patch.d/*.sh
 
 # build deb packages
-git info # inital git
+git init # inital git
 CPU_CORES=$(($(grep -c processor < /proc/cpuinfo)*2))
 make deb-pkg -j"$CPU_CORES"
 
