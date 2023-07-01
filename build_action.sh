@@ -2,6 +2,8 @@
 
 VERSION=$(grep 'Kernel Configuration' < config | awk '{print $3}')
 
+su root
+
 # add deb-src to sources.list
 sed -i "/deb-src/s/# //g" /etc/apt/sources.list
 
