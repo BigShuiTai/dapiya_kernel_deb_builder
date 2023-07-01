@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86 6.4.1-060401-generic Kernel Configuration
+# Linux/x86 6.4.1 Kernel Configuration
 #
 CONFIG_CC_VERSION_TEXT="x86_64-linux-gnu-gcc-12 (Ubuntu 12.3.0-1ubuntu1) 12.3.0"
 CONFIG_CC_IS_GCC=y
