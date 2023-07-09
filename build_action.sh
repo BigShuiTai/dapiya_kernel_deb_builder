@@ -14,8 +14,8 @@ sudo apt build-dep -y linux
 cd "${GITHUB_WORKSPACE}" || exit
 
 # download kernel source
-wget https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-"$VERSION".tar.xz  
-tar -xf linux-"$VERSION".tar.xz
+wget https://git.kernel.org/torvalds/t/linux-"$VERSION".tar.gz
+tar -zxvf linux-"$VERSION".tar.gz
 cd linux-"$VERSION" || exit
 
 # copy config file
